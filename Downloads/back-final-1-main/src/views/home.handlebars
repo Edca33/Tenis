@@ -1,0 +1,35 @@
+<h1>Lista de juegos</h1>
+<ul >
+  {{#each products}}
+   <div class="card" style="width: 18rem;" data-id="{{this.id}}">
+  <img src="../img/rgb_gb_2560x1600.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{this}}</h5>
+    <p class="card-text"></p>
+    <a href="/producto" class="btn btn-primary">Ve a ver el producto</a>
+
+  </div>
+</div>
+  {{/each}}
+</ul>
+
+<span id="span1">
+
+</span><span id="span2">
+
+</span><span id="span3">
+
+</span><span id="span4">
+
+</span>
+
+
+<a href="/realtimeproducts">Ver juegos en tiempo real</a>
+
+
+
+<a href="/chats">Chatea con nosotros</a>
+
+
+
+<a href="/products">Mira nuestros juegos!!</a>
